@@ -9,7 +9,12 @@
   --color-dark-card: #1a1a1a;
   --font-display: "Bebas Neue", sans-serif;
   --font-body: "Inter", sans-serif;
+  --breakpoint-xs: 480px;
 }
+
+/* Hide scrollbar on horizontal scroll containers */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
 
 * {
   box-sizing: border-box;
